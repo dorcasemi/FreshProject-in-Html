@@ -1,0 +1,392 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.pageOne{
+       background-color:white;
+       height: 100vh;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: auto;
+    
+}
+
+.logo{
+    height: 70px;
+    width: 150px;
+}
+.startpoint{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    }
+
+ .nav-bar >a {
+    text-decoration: none;
+    color: white;
+ }   
+
+.endlogo{
+    height: 30px;
+    width: 30px;
+   
+    }
+
+.endpoint{
+    width: 250px;
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-start;
+    align-content: flex-start;
+}
+/* The header has been completed */
+
+
+.pageOneBody{
+height: 85vh;
+width: 100%;
+background-color: #C499DF;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.femalePicture{
+    height: 480px;
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+.pageOneHeader{
+    font-size: 75px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bolder; 
+   
+    }
+
+.pageOneParag{
+    font-size: 20px;
+    font-family: 'cambria';
+    font-style: normal;
+    
+}
+.textPart{
+    margin-left: 170px;
+}
+
+.btnSection{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.btn1{
+    width: 181px;
+    padding: 10px;
+    border: 2px solid rgb(149, 44, 235);
+    background-color: rgb(149, 44, 235);
+    margin-right: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn2{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 181px;
+    
+}
+.sideButton{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    
+}
+.sBContainer{
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+/* Css for page 2 */
+
+.pageTwoBody{
+height: 110vh;
+width: 100%;
+display: flex;
+
+}
+.pTwoImgSection{
+height: 100vh;
+width: 40%;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.pTwoPic{
+    height: 500px;
+    display: flex; 
+}
+.paraSec{
+    height:100vh;
+   
+}
+.ptag1{
+    height: 250px;
+    margin-top: 10px;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.btnblock{
+    
+    height: 318px;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    
+   
+    }
+.btngroup{
+    height: 80px;
+    width: 281px;
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+.btnsect1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+        
+    }
+.btnsect2{
+  
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+ /* page 3 begins here   */
+
+.page3Body{
+    height: 180vh;
+    width: 100%;
+    background-color: #040414;
+    color: white;
+}
+
+.sect3para{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headOne{
+    font-size: 40px;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+} 
+.ptag2{
+    font-family: 'Calibri';
+    font-size: 19px;
+    text-align: center;
+}
+.iconSect{
+height: 800px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 50px;
+
+}
+
+.icons{
+    margin: 20px;
+
+}
+
+h4{
+font-size: 20px;
+font-family: 'Arial black';
+margin: 10px;
+}
+
+.Ptag3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    
+
+}
+.btnIcon{
+    padding: 10px;
+    color: rgb(231, 12, 12);
+    font-size: 18px;
+    background-color: transparent;
+    }
+
+.cards{
+    height:400px;
+    width: 50%;
+   
+}
+/* page 4 begins here   */
+
+.page4Body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.sect4para{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headfour{
+    font-size: 40px;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+} 
+.ptag4{
+    font-family: 'Calibri';
+    font-size: 19px;
+    text-align: center;
+}
+.icon4Sect{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    }
+
+    .batch1{
+        height: 100px;
+        background-color:white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .batch2{
+        height: 100px;
+        background-color:white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .batch3{
+        height: 100px;
+        background-color:white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+     /* page 5 begins here  */
+
+
+     .page5Body{
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+     }
+     .sect5quote{
+        display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+
+     }
+     .waterston{
+        font-size: 55px;
+        margin: 45px;
+     }
+     .sect5para{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .ptag5{
+         font-size: 25px;
+         margin: 20px;
+         text-align: center;
+     }
+
+      /* page 6 begins here  */
+
+      .page6Body{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+      }
+.headSix{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect6para{
+    display: flex;
+    flex-direction: row;
+}
